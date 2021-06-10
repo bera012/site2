@@ -1,0 +1,230 @@
+.baslik{
+    color: #003F6B;
+    font-weight: 900;
+    margin-bottom: 20px;
+}    
+.par{
+    color: gray;
+    font-weight: 500;
+}
+/*Bölüm 1*/
+.bolum1{
+    height: 100vh;
+    background-image: url(Resimler/bisiklet.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    border-bottom: 2px solid lightgray;
+}
+.bolum1 .logo{
+    width: 125px;
+    height: 50px;
+}
+.bolum1 .logoyani ul li a.yazi.active{
+    color: aqua !important;
+}
+.bolum1 .logoyani ul li a.yazi{
+    font-weight: 600;
+    font-size: 15px ! important;
+}
+.bolum1 .navbar{
+    position: absolute;
+    top: 30px;
+    width: 85%;
+    z-index: 999;
+    list-style: none;
+    background: rgba(0,0,0,0.8);
+    border-radius: 10px;
+}
+.bolum1 .collapse .navbar-nav ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+.bolum1 .container .row{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.bolum1 .container .row .bas1 .bas{
+    text-decoration: underline; 
+}
+.bolum1 .container .row .baslik{
+    color: #003F6B;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.bolum1 .container .row .par{
+    color: gray;
+    font-weight: 500;
+}
+.bolum1 .navbar{
+    margin-left: 100px;
+}
+@media only screen and (max-width:1150px){
+    .bolum1 .navbar{
+        background-color: rgba(0,0,0,1);
+        position: fixed;
+        top: 0;
+        left:0;
+        width: 100%;
+        margin-left: 0;
+        border-radius: 0;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width:750px){
+    .bolum1 .row .col-md-5{
+        padding: 20px;
+        background-color: rgba(0,0,0,0.8);
+        border-radius: 10px;
+    }
+    .bolum1 .row .col-md-5 .baslik{
+        color: #75D7FF;
+    }
+    .bolum1 .row .col-md-5 .par{
+        color: lightgray;
+    }
+    .bolum1 .row .col-md-5 .bas1{
+        color: white;
+    }
+}
+/*Bölüm 2*/
+.bolum2{
+    background: lightgray;
+    height: 125vh;
+    padding-top: 100px !important;
+}
+.bolum2 .par{
+    margin-bottom: 75px;
+}
+.bolum2 .kutucuk{
+    background: #ddd !important;
+}
+.bolum2 .kutucuk1{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.bolum2 .kutucuk3{
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.bolum2 .row .resim img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width:750px){
+    .bolum2{
+        height: 220vh;
+    }
+}
+/*Bölüm 3*/
+.bolum3{
+    margin-bottom: 100px;
+}
+.bolum3 .row .col-md-6{
+    padding: 20px;
+    text-align: center !important;
+}
+.bolum3 .row .col-md-6 i{
+    font-size: 75px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+/*Bölüm 4*/
+.bolum4{
+    background: rgba(0,0,0,0.6);
+    height: 190vh;
+    padding-top: 100px !important;
+    background-image: url(Resimler/bice.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.bolum4 .container .baslik{
+    text-shadow: 0px 0px 5px white;
+}
+.bolum4 .row .col-lg-6 .col-12 .col-12 i{
+    font-size: 50px;
+}
+.bolum4 .row .col-lg-6 .col-12 .col-12 p{
+    font-weight: 600 !important;
+}
+.bolum4 .row .col-lg-6 .col-12 .col-12 .acik{
+    color: black;
+}
+.bolum4 .row .col-lg-6 .col-12.kutucuklar{
+    border-radius: 10px;
+}
+.bolum4 .row .col-lg-6 .col-12 .col-12 .beyaz{
+    color: white;
+}
+@media only screen and (max-width:700px){
+    .bolum4{
+    }
+}
+/*Bölüm 5*/
+.bolum5{
+    height: 125vh;
+    padding-top: 100px !important;
+    background-image: url(Resimler/images.png);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 100px !important;
+}
+.bolum5 .row{
+    height: 50vh;
+    text-align: left;
+}
+.bolum5 .row .resimcik{
+    background: url(Resimler/partner.jpg);
+    background-position: center center;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin: 50px;
+    background-repeat: no-repeat;
+}
+.bolum5 .row .resimcik2{
+    background: url(Resimler/partner%202.jpg);
+    background-position: center center;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    margin: 50px;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width:1000px){
+    .bolum5 img.resimcik{
+        width: 250px !important;
+        height: 250px !important;
+        margin: 20px !important;
+    }
+    .bolum5 img.resimcik2{
+        width: 250px !important;
+        height: 250px !important;
+        margin: 20px !important;
+    }
+}
+@media only screen and (max-width:750px){
+    .bolum5 .row .col-md-6{
+        margin-bottom: 20px;
+    }
+    .bolum5{
+        height: 170vh;
+    }
+}
+/*Bölüm 6*/
+footer .ima{
+    width: 125px;
+    height: 50px;
+}
+footer .row i{
+    font-size: 30px;
+    padding: 20px;
+    color: dodgerblue;
+}
